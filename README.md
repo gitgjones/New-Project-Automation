@@ -21,6 +21,7 @@ Credit to KalleHallden for the idea to automate some of the initial steps when s
     - There will be a line somewhere: "plugins=(<some text here>)"
     - Simply add 'new project' to the end: "plugins=(<some text here>, newproject)"
   4. Edit the .env file to tell the script the full path of your preferred project folder, and your GitHub token
+  5. You'll need to install the PyGithub module using pip
 
 ## Usage
 
