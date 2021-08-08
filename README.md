@@ -18,8 +18,8 @@ Credit to KalleHallden for the idea to automate some of the initial steps when s
   1. Copy the .newproject folder to your 'Home' directory (careful of the '.' to make sure you copy the right folder!)
   2. Copy the newproject folder to ~/.oh-my-zsh/custom/plugins/
   3. Edit your ~/.zshrc file to add the new plugin
-    - There will be a line somewhere: "plugins=(<some text here>)"
-    - Simply add 'new project' to the end: "plugins=(<some text here>, newproject)"
+      3a. There will be a line somewhere: "plugins=(<some text here>)"
+      3b. Simply add 'new project' to the end: "plugins=(<some text here>, newproject)"
   4. Edit the .env file to tell the script the full path of your preferred project folder, and your GitHub token
   5. You'll need to install the PyGithub module using pip
 
